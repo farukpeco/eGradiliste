@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eGradiliste")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b52f844ac537c1e41bf67c182753aa0b1fd1291a")]
 [assembly: System.Reflection.AssemblyProductAttribute("eGradiliste")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eGradiliste")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

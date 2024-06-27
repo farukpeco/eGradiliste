@@ -271,3 +271,4 @@ C:\RS2\eGradjevinskaFirma\eGradiliste\eGradiliste\obj\Debug\net8.0\refint\eGradi
 C:\RS2\eGradjevinskaFirma\eGradiliste\eGradiliste\obj\Debug\net8.0\eGradiliste.pdb
 C:\RS2\eGradjevinskaFirma\eGradiliste\eGradiliste\obj\Debug\net8.0\eGradiliste.genruntimeconfig.cache
 C:\RS2\eGradjevinskaFirma\eGradiliste\eGradiliste\obj\Debug\net8.0\ref\eGradiliste.dll
+C:\RS2\eGradjevinskaFirma\eGradiliste\eGradiliste\obj\Debug\net8.0\eGradiliste.sourcelink.json
