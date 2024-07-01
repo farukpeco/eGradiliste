@@ -1,4 +1,4 @@
-﻿using eGradiliste.eGradiliste.Model;
+﻿using eGradiliste.Model;
 
 namespace eGradiliste.eGradiliste.Services;
 

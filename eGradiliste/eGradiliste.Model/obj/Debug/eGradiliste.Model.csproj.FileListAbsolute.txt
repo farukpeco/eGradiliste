@@ -1,0 +1,6 @@
+C:\Users\PC\Desktop\eGradiliste\eGradiliste\eGradiliste.Model\obj\Debug\eGradiliste.Model.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\eGradiliste\eGradiliste\eGradiliste.Model\obj\Debug\eGradiliste.Model.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\eGradiliste\eGradiliste\eGradiliste.Model\bin\Debug\eGradiliste.Model.dll
+C:\Users\PC\Desktop\eGradiliste\eGradiliste\eGradiliste.Model\bin\Debug\eGradiliste.Model.pdb
+C:\Users\PC\Desktop\eGradiliste\eGradiliste\eGradiliste.Model\obj\Debug\eGradiliste.Model.dll
+C:\Users\PC\Desktop\eGradiliste\eGradiliste\eGradiliste.Model\obj\Debug\eGradiliste.Model.pdb

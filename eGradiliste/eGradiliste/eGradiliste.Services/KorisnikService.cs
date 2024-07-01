@@ -1,19 +1,22 @@
-﻿using eGradiliste.eGradiliste.Model;
-using eGradiliste.eGradiliste.Services.Database;
+﻿using eGradiliste.Model;
+using eGradiliste.Database;
+using AutoMapper;
 
 namespace eGradiliste.eGradiliste.Services;
 
 public class KorisnikService : IKorisnikService
 {
-    public eGradilisteContext _context { get; set; }
+    public EGradilisteContext _context { get; set; }
+    private readonly IMapper _mapper;
 
-    public KorisnikService(eGradilisteContext context)
+    public KorisnikService(EGradilisteContext context, IMapper mapper)
     {
         _context = context;
+        _mapper = mapper;
     }
 
-    public List<Korisnici> Get()
+    public List<Model.Korisnici> Get()
     {
-        return _context.Korisnici.ToList();
+        return _context.Korisnicis.ToList().Select(x => _mapper.Map<Model.Korisnici>(x)).ToList();
     }
 }

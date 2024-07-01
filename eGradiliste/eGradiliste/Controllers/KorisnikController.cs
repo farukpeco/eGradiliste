@@ -1,4 +1,4 @@
-﻿using eGradiliste.eGradiliste.Model;
+﻿using eGradiliste.Model;
 using eGradiliste.eGradiliste.Services;
 using Microsoft.AspNetCore.Mvc;
 

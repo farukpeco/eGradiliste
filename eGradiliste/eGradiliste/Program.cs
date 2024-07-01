@@ -1,17 +1,19 @@
+using eGradiliste.Database;
+using Microsoft.AspNetCore.Hosting;
 using eGradiliste.eGradiliste.Services;
-using eGradiliste.eGradiliste.Services.Database;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IKorisnikService, KorisnikService>();
-builder.Services.AddDbContext<eGradilisteContext>(options => options.UseSqlServer(
+builder.Services.AddDbContext<EGradilisteContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
     ));
 

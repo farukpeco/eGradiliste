@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace eGradiliste.eGradiliste.Model;
+namespace eGradiliste.Database;
 
-public class Korisnici
+public partial class Korisnici
 {
-    [Key]
     public int KorisnikId { get; set; }
 
     public string Ime { get; set; } = null!;
@@ -18,5 +18,6 @@ public class Korisnici
     public string KorisnickoIme { get; set; } = null!;
 
     public bool? Status { get; set; }
-    public virtual ICollection<KorisniciUloge> KorisniciUloges { get; } = new List<KorisniciUloge>();
+
+    public virtual ICollection<KorisniciUloge> KorisniciUloges { get; set; } = new List<KorisniciUloge>();
 }
